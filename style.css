@@ -179,3 +179,26 @@ $(document).ready(function(){
   });
 
 });
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 20px;
+  }
+  header {
+    height: 80px;
+  }
+}
+p {
+  column-count: 1;
+}
+#image1 {
+  display: none;
+}
+
+#image2 {
+  display: none;
+}
+
+#image3 {
+  display: none;
+}
